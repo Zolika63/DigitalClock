@@ -1,18 +1,9 @@
 <!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2019 by Zolika63 (http://jsbin.com/memaxik/2/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
 <html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Zolika63</title>
   <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
 <style id="jsbin-css">
 * { margin: 0; padding: 0; }
@@ -42,24 +33,20 @@ body {
         letter-spacing: 0.1rem;
         font-size: 48px;
         margin-bottom: 1rem;
-
     }
 
     .time {
         letter-spacing: 0.3rem;
         font-size: 80px;
         margin-bottom: 1rem;
-
     }
 
     .text {
         letter-spacing: 1rem;
         font-size: 12px;
-
     }
 }
 </style>
-<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/7ADB5602-CEEA-9E48-AAFC-8A61A632BDAE/main.js" charset="UTF-8"></script></head>
 <body>
 <div id="clock">
     <p class="date">2018-12-10</p>
@@ -91,7 +78,6 @@ console.log(month)
     month = "0" + month;
   }
 
-
   var clockFace = hours + ':' + minutes + ':' + seconds;
   var dateFace = year + '-' + month + '-' + day;
 
@@ -99,9 +85,7 @@ console.log(month)
   y[0].innerHTML = dateFace;
   var x = document.getElementsByClassName("time");
   x[0].innerHTML = clockFace;
-  
-  
-  
+
 }
 
 colorClock();
