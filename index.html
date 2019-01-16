@@ -86,13 +86,13 @@ console.log(month)
   var x = document.getElementsByClassName("time");
   x[0].innerHTML = clockFace;
 
+  setTimeout(function() {
+    colorClock();
+  }, 1000);
 }
 
 colorClock();
 
-setTimeout(function() {
-    colorClock();
-  }, 1000);
 </script>
 </body>
 </html>
